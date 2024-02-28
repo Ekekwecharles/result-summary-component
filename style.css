@@ -1,0 +1,234 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  color: hsl(241, 100%, 89%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  margin: 9.6rem auto;
+  width: 70rem;
+  height: 50rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 21px;
+}
+
+.result {
+  flex: 1 0;
+  border-radius: 21px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 4rem;
+  padding-bottom: 4rem7;
+  text-align: center;
+  /* border: 1px solid black; */
+  width: 35rem;
+}
+
+.num-box span {
+  display: block;
+}
+
+.num-box {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  padding: 2rem;
+  margin: 2.5em auto 2rem;
+
+  /* background-image: linear-gradient(red, blue); */
+
+  /* border: 1rem solid red; */
+}
+
+.big-num {
+  font-size: 6rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 2rem;
+}
+
+.light-num {
+  font-size: 1.4rem;
+  /* line-height: 0; */
+}
+
+.great {
+  font-size: 2em;
+  color: white;
+  margin-top: 3.5rem;
+}
+
+.great-text {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.summary {
+  flex: 1 0;
+  width: 35rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.summary-header {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.summary-item-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.reaction {
+  color: #f55;
+}
+
+.reaction-box {
+  background-color: rgba(255, 87, 87, 0.07);
+  /* background-color: white; */
+}
+
+.memory {
+  color: #ffb21e;
+}
+
+.memory-box {
+  background-color: rgba(255, 177, 31, 0.07);
+}
+
+.verbal {
+  color: #00bb8f;
+}
+
+.verbal-box {
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+
+.visual {
+  color: #1125d6;
+}
+
+.visual-box {
+  background-color: hsla(234, 85%, 45%, 0.068);
+}
+
+.svg-box {
+  display: flex;
+  gap: 1.1rem;
+  font-weight: 600;
+}
+
+.btn {
+  color: #eee;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+
+.corners {
+  position: absolute;
+  z-index: -1;
+}
+
+.corner {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.bg-color {
+  position: relative;
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+}
+
+.top {
+  top: -5.4rem;
+  left: -0.4px;
+}
+
+.bottom {
+  top: -1.9rem;
+  left: -0.1rem;
+}
+
+.left {
+  top: -5.37rem;
+  left: 25.1rem;
+}
+
+.right {
+  top: -1.9rem;
+  left: 25.1rem;
+}
+
+.reaction-color {
+  border: 1.5px solid rgba(255, 87, 87, 0.3);
+}
+
+.memory-color {
+  border: 1.5px solid rgba(255, 177, 31, 0.3);
+}
+
+.verbal-color {
+  border: 1.5px solid hsla(166, 100%, 37%, 0.3);
+}
+
+.visual-color {
+  border: 1.5px solid hsla(234, 85%, 45%, 0.3);
+}
+
+.summary-bold-num {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+
+.summary-light-num {
+  color: #aaa;
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: rgba(62, 82, 163, 0.07);
+}
